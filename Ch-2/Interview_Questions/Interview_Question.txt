@@ -1,0 +1,33 @@
+
+2.1 Name some of the key features of C programming language.
+ANSWER:
+- Simple and efficient
+- Portable
+- Low-level access to memory
+- Rich set of built-in operators and functions
+- Structured programming language
+- Modularity
+- Flexibility
+- Speed
+
+2.2 Which symbol is used to indicate the end of most C programming statements?
+ANSWER:
+- The semicolon (`;`)
+
+2.3 Do you consider C as a high-level programming language?
+ANSWER:
+- Yes, C is considered a high-level programming language. It provides abstraction from the hardware, allows for complex data types, and supports structured programming.
+
+2.4 Which punctuation symbols are used to represent code blocks in C?
+ANSWER:
+- Curly braces (`{ }`)
+
+2.5 Which function is the starting point in a C program?
+ANSWER:
+- The `main()` function
+
+2.6 Which return value of `main()` function indicates successful completion of the program ?
+ANSWER:-
+ A return value of `0` indicates successful completion of the program.
+
+
