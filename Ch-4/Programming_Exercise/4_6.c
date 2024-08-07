@@ -41,9 +41,8 @@ void main()
 
     while(1)
     {
-        
         // Ask the user if they want to perform another calculation
-        printf("Do you want to perform  calculation? Enter 1 if you want otherwise Enter 0: ");
+        printf("Do You Want to Perform  Calculation? Enter 1 if you want otherwise Enter 0: ");
         scanf(" %d", &choice);  // Notice the space before %c to consume any trailing whitespace
         
         switch(choice)
@@ -51,10 +50,6 @@ void main()
             case 1:calculate_distance();
             break;
             case 0:exit(0);
-
         }
-
     }
-    
-   
 }
