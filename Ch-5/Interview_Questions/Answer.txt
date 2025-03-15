@@ -1,0 +1,52 @@
+[1]How will you print the % character on output screen?
+
+-->To print the % character, use %% in the printf function:
+    printf("%%");
+
+[2]What will be o/p of following code?
+ 
+ #define char int
+ void main()
+ {
+    char i;
+    printf("%d",sizeof(i));
+ }
+
+-->In The keyword #define char int replaces char with int, leading to a compilation error because char is a keyword in C, and redefining it is not allowed. 
+
+
+[3]Will the follwoing statement compile sucessfully?
+    printf("%d",printf("Hello));
+
+-->No, this statement will not compile because of a missing closing double-quote (") in "Hello.
+The corrected version:    
+
+[4]is it possible to run a program sucessfully without including header file?For instance , will the following code run sucessfully?
+
+    void main()
+    {
+        printf("Hellow World\n");
+        getch();
+    }
+
+-->The program may compile in some compilers, but it is incorrect due to the following issues:
+
+void main() is not standard; use int main().
+printf() is declared in stdio.h, so omitting #include <stdio.h> may cause an error.
+getch() is a non-standard function (specific to Turbo C++) and requires conio.h.    
+
+[5]What will be the O/P of follwoing printf statement?
+    printf("%d");
+
+-->The output is undefined behavior because %d expects an argument, but none is provided.
+It may print garbage values or cause a runtime error.
+
+[6]What will be the O/P of follwoing code?
+    #define rate 10
+    void main()
+    {
+        #define rate 20 
+        printf("rate = %d",rate)
+    }  
+
+-->This code will not compile because redefining a Keyword (#define rate 20) inside a function is not allowed in standard C.      

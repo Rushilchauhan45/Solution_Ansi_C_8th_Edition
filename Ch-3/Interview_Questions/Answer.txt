@@ -1,0 +1,23 @@
+[1] Is it possible to declare an indetifire that starts with an undersocre?
+ 
+-->Yes, it is possible to declare an identifier that starts with an underscore. However, in C, identifiers that begin with an underscore followed by an uppercase letter or double underscore (e.g., _MyVar or __myVar) are reserved for system and library implementations, so it is recommended to avoid using them in user-defined code.
+
+[2] Is it possible to declare an indetifire that ends with an undersocre?
+
+-->Yes, an identifier can end with an underscore (e.g., myVar_). There are no restrictions on ending an identifier with an underscore in C.
+
+[3] What is the return type of printf function?
+
+-->The return type of the printf function is int. It returns the number of characters printed on the standard output.
+
+[4]What is the diffrence between declaring and defining a varible?
+
+-->Declaring a variable means telling the compiler about its name and type without allocating memory for it (e.g., extern int x;). Defining a variable means both declaring and allocating memory for it (e.g., int x = 10;).
+
+[5] What is long long int?
+
+-->long long int is a data type in C that provides a larger range for storing integer values compared to long int. It typically has a size of 8 bytes (64 bits) and is used when dealing with very large numbers.
+
+[6]What is the return type of scanf function?
+
+-->The return type of the scanf function is int. It returns the number of input values successfully read from the standard input. If an input failure occurs before any values are read, scanf returns EOF (-1).
